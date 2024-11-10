@@ -94,10 +94,10 @@ assign BUS = GateALU ? ALU_OUT :
 			 16'bZ;
 
 //memory logic
-//initial begin
-	//PC <= 16'b0;
-    //$readmemh("my_code.mem", mem_contents);
-//end
+initial begin
+	PC <= 16'b0;
+    $readmemh("my_code.mem", mem_contents);
+end
 
 always @(posedge clk) begin
 	if(LD_MAR) begin
