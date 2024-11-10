@@ -1,0 +1,114 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2023.3 win64 Jul 17 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do LC3_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2023.3 Lib Mapping Utility 2023.07 Jul 17 2023
+# vmap work rtl_work 
+# Copying c:/intelfpga_lite/23.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Justin/Desktop/LC3_FPGA {C:/Users/Justin/Desktop/LC3_FPGA/DE10_LITE_Golden_Top.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 19:41:13 on Nov 09,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Justin/Desktop/LC3_FPGA" C:/Users/Justin/Desktop/LC3_FPGA/DE10_LITE_Golden_Top.v 
+# -- Compiling module DE10_LITE_Golden_Top
+# 
+# Top level modules:
+# 	DE10_LITE_Golden_Top
+# End time: 19:41:13 on Nov 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Justin/Desktop/LC3_FPGA {C:/Users/Justin/Desktop/LC3_FPGA/LC3.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 19:41:13 on Nov 09,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Justin/Desktop/LC3_FPGA" C:/Users/Justin/Desktop/LC3_FPGA/LC3.v 
+# -- Compiling module LC3
+# 
+# Top level modules:
+# 	LC3
+# End time: 19:41:13 on Nov 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Justin/Desktop/LC3_FPGA {C:/Users/Justin/Desktop/LC3_FPGA/FSM.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 19:41:13 on Nov 09,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Justin/Desktop/LC3_FPGA" C:/Users/Justin/Desktop/LC3_FPGA/FSM.v 
+# -- Compiling module FSM
+# 
+# Top level modules:
+# 	FSM
+# End time: 19:41:13 on Nov 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Justin/Desktop/LC3_FPGA {C:/Users/Justin/Desktop/LC3_FPGA/ALU.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 19:41:13 on Nov 09,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Justin/Desktop/LC3_FPGA" C:/Users/Justin/Desktop/LC3_FPGA/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 19:41:13 on Nov 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Justin/Desktop/LC3_FPGA {C:/Users/Justin/Desktop/LC3_FPGA/REGFILE.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 19:41:13 on Nov 09,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Justin/Desktop/LC3_FPGA" C:/Users/Justin/Desktop/LC3_FPGA/REGFILE.v 
+# -- Compiling module REGFILE
+# 
+# Top level modules:
+# 	REGFILE
+# End time: 19:41:13 on Nov 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Justin/Desktop/LC3_FPGA {C:/Users/Justin/Desktop/LC3_FPGA/tb_lc3.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 19:41:13 on Nov 09,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Justin/Desktop/LC3_FPGA" C:/Users/Justin/Desktop/LC3_FPGA/tb_lc3.v 
+# -- Compiling module tb_lc3
+# 
+# Top level modules:
+# 	tb_lc3
+# End time: 19:41:13 on Nov 09,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  tb_lc3
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" tb_lc3 
+# Start time: 19:41:13 on Nov 09,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "FSM(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.tb_lc3(fast)
+# Loading work.LC3(fast)
+# Loading work.FSM(fast)
+# Loading work.REGFILE(fast)
+# Loading work.ALU(fast)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+add wave -position insertpoint  \
+sim:/tb_lc3/lc3/PC
+run 100ns
+run 5000ns
+run 100ns
+# End time: 19:43:06 on Nov 09,2024, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 1

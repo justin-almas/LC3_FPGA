@@ -1,0 +1,174 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/Justin/Desktop/LC3_FPGA/simulation/questa
+T_opt
+Z2 !s110 1731199273
+Vce2`aNA>445Nac18K>Lk=0
+04 6 4 work tb_lc3 fast 0
+=1-9c6b00240072-67300129-330-4e9c
+R0
+!s12b OEM100
+!s124 OEM10U5 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work +acc
+Z3 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vALU
+2C:/Users/Justin/Desktop/LC3_FPGA/ALU.v
+R2
+!i10b 1
+!s100 Cg4:dNI:g^G51Ta3=eX541
+I=Mz40I_RkJL=YV:2VCACR0
+R1
+w1731125145
+8C:/Users/Justin/Desktop/LC3_FPGA/ALU.v
+FC:/Users/Justin/Desktop/LC3_FPGA/ALU.v
+!i122 3
+L0 1 18
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z6 !s108 1731199273.000000
+!s107 C:/Users/Justin/Desktop/LC3_FPGA/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Desktop/LC3_FPGA|C:/Users/Justin/Desktop/LC3_FPGA/ALU.v|
+!i113 0
+Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -vlog01compat -work work +incdir+C:/Users/Justin/Desktop/LC3_FPGA -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+n@a@l@u
+vDE10_LITE_Golden_Top
+2C:/Users/Justin/Desktop/LC3_FPGA/DE10_LITE_Golden_Top.v
+R2
+!i10b 1
+!s100 >iDKB8aEZXo_k1469^i:33
+IZ[EEjEiC:]Q0AoGjXFF4;1
+R1
+w1731191542
+8C:/Users/Justin/Desktop/LC3_FPGA/DE10_LITE_Golden_Top.v
+FC:/Users/Justin/Desktop/LC3_FPGA/DE10_LITE_Golden_Top.v
+!i122 0
+L0 29 126
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Justin/Desktop/LC3_FPGA/DE10_LITE_Golden_Top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Desktop/LC3_FPGA|C:/Users/Justin/Desktop/LC3_FPGA/DE10_LITE_Golden_Top.v|
+!i113 0
+R7
+R8
+R3
+n@d@e10_@l@i@t@e_@golden_@top
+vFSM
+2C:/Users/Justin/Desktop/LC3_FPGA/FSM.v
+R2
+!i10b 1
+!s100 jc4NA9MOneADTH^db45M53
+I88>33nIC_C024hoNo5gW83
+R1
+w1731198496
+8C:/Users/Justin/Desktop/LC3_FPGA/FSM.v
+FC:/Users/Justin/Desktop/LC3_FPGA/FSM.v
+!i122 2
+L0 1 229
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Justin/Desktop/LC3_FPGA/FSM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Desktop/LC3_FPGA|C:/Users/Justin/Desktop/LC3_FPGA/FSM.v|
+!i113 0
+R7
+R8
+R3
+n@f@s@m
+vLC3
+2C:/Users/Justin/Desktop/LC3_FPGA/LC3.v
+R2
+!i10b 1
+!s100 hBO=LbhONM:XbV[I7Dhb23
+I0ge3O?`kS0IeeIW9Xk3=K0
+R1
+w1731199228
+8C:/Users/Justin/Desktop/LC3_FPGA/LC3.v
+FC:/Users/Justin/Desktop/LC3_FPGA/LC3.v
+!i122 1
+L0 1 191
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Justin/Desktop/LC3_FPGA/LC3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Desktop/LC3_FPGA|C:/Users/Justin/Desktop/LC3_FPGA/LC3.v|
+!i113 0
+R7
+R8
+R3
+n@l@c3
+vREGFILE
+2C:/Users/Justin/Desktop/LC3_FPGA/REGFILE.v
+R2
+!i10b 1
+!s100 l[KZfHZ6Ig>TY_LdeeNYg1
+I_gYAz41iCBe84llbUE3TX3
+R1
+w1731191493
+8C:/Users/Justin/Desktop/LC3_FPGA/REGFILE.v
+FC:/Users/Justin/Desktop/LC3_FPGA/REGFILE.v
+!i122 4
+L0 1 32
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Justin/Desktop/LC3_FPGA/REGFILE.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Desktop/LC3_FPGA|C:/Users/Justin/Desktop/LC3_FPGA/REGFILE.v|
+!i113 0
+R7
+R8
+R3
+n@r@e@g@f@i@l@e
+vtb_lc3
+2C:/Users/Justin/Desktop/LC3_FPGA/tb_lc3.v
+R2
+!i10b 1
+!s100 nND<2c:lUM;fZ<V0mc4Df3
+I>CoNFIU:eN0Cc?KYM:ad^3
+R1
+w1731199087
+8C:/Users/Justin/Desktop/LC3_FPGA/tb_lc3.v
+FC:/Users/Justin/Desktop/LC3_FPGA/tb_lc3.v
+!i122 5
+L0 2 29
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Justin/Desktop/LC3_FPGA/tb_lc3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Justin/Desktop/LC3_FPGA|C:/Users/Justin/Desktop/LC3_FPGA/tb_lc3.v|
+!i113 0
+R7
+R8
+R3
